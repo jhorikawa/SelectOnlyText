@@ -1,0 +1,9 @@
+﻿Option Explicit
+'Script written by <Junichiro Horikawa>
+'Script copyrighted by <Junichiro Horikawa>
+'Script version 2010年10月28日 20:53:05
+
+Call Main()
+Sub Main()
+	Rhino.GetObjects "select objects",512,,,True
+End Sub
